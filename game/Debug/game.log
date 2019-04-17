@@ -1,0 +1,107 @@
+﻿Build started 4/11/2018 12:18:37 AM.
+     1>Project "C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\game\game.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Welcome\Downloads\Compressed\SFML-2.4.2-windows-vc11-32-bit\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt BoardChess.cpp Connector.cpp EventInput.cpp Game.cpp main.cpp MenuGame.cpp Mouse.cpp MusicGame.cpp Piece.cpp PieceSet.cpp Player.cpp SoundGame.cpp Square.cpp WindowGame.cpp
+         WindowGame.cpp
+         Square.cpp
+         SoundGame.cpp
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\soundgame.cpp(41): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Player.cpp
+         PieceSet.cpp
+         Piece.cpp
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\piece.cpp(133): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\piece.cpp(138): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\piece.cpp(144): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\piece.cpp(150): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\piece.cpp(156): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\piece.cpp(160): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\piece.cpp(841): warning C4018: '<' : signed/unsigned mismatch
+         MusicGame.cpp
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\musicgame.cpp(38): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Mouse.cpp
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\mouse.cpp(28): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\mouse.cpp(36): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\mouse.cpp(79): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\mouse.cpp(80): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         MenuGame.cpp
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.h(62): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.h(63): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.h(77): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(142): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(165): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(166): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(186): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(187): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(193): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(194): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(216): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(220): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(232): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(233): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(249): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(258): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.cpp(271): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         main.cpp
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.h(62): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.h(63): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.h(77): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Game.cpp
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.h(62): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.h(63): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\menugame.h(77): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\game.cpp(469): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\game.cpp(528): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         EventInput.cpp
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\eventinput.cpp(60): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\eventinput.cpp(67): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\eventinput.cpp(68): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\eventinput.cpp(85): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Connector.cpp
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\connector.cpp(20): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(515) : see declaration of 'mbstowcs'
+         BoardChess.cpp
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(97): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(133): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(138): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(149): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(154): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(175): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(195): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(199): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(203): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(209): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(213): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(217): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(231): warning C4715: 'BoardChess::PieceWin' : not all control paths return a value
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(124): warning C4715: 'BoardChess::ColorOfSquare' : not all control paths return a value
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\game.cpp(672): warning C4715: 'Game::ProcessIcon' : not all control paths return a value
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\game.cpp(793): warning C4715: 'Game::WinOrLose' : not all control paths return a value
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\piece.cpp(941): warning C4715: 'Piece::CheckChangePiece' : not all control paths return a value
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\pieceset.cpp(208): warning C4715: 'PieceSet::CpuSelectionPiece' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\Debug\game.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Welcome\Downloads\Compressed\SFML-2.4.2-windows-vc11-32-bit\SFML-2.4.2\lib" "sfml-main-d.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\Debug\game.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\Debug\game.lib" /MACHINE:X86 Debug\BoardChess.obj
+         Debug\Connector.obj
+         Debug\EventInput.obj
+         Debug\Game.obj
+         Debug\main.obj
+         Debug\MenuGame.obj
+         Debug\Mouse.obj
+         Debug\MusicGame.obj
+         Debug\Piece.obj
+         Debug\PieceSet.obj
+         Debug\Player.obj
+         Debug\SoundGame.obj
+         Debug\Square.obj
+         Debug\WindowGame.obj
+         game.vcxproj -> C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\Debug\game.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\game.unsuccessfulbuild".
+         Touching "Debug\game.lastbuildstate".
+     1>Done Building Project "C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\game\game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.17

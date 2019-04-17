@@ -1,0 +1,38 @@
+﻿Build started 4/17/2019 11:05:07 PM.
+     1>Project "C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\game\game.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Welcome\Downloads\Compressed\SFML-2.4.2-windows-vc11-32-bit\SFML-2.4.2\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\MenuGame.h(62): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\MenuGame.h(63): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\MenuGame.h(77): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\Release\game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Welcome\Downloads\Compressed\SFML-2.4.2-windows-vc11-32-bit\SFML-2.4.2\lib" "sfml-main.lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" "sfml-audio.lib" "sfml-network.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\Release\game.pdb" /SUBSYSTEM:CONSOLE,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\Release\game.lib" /MACHINE:X86 /SAFESEH Release\BoardChess.obj
+         Release\Connector.obj
+         Release\EventInput.obj
+         Release\Game.obj
+         Release\main.obj
+         Release\MenuGame.obj
+         Release\Mouse.obj
+         Release\MusicGame.obj
+         Release\Piece.obj
+         Release\PieceSet.obj
+         Release\Player.obj
+         Release\SoundGame.obj
+         Release\Square.obj
+         Release\WindowGame.obj
+         Generating code
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\boardchess.cpp(124): warning C4715: 'BoardChess::ColorOfSquare' : not all control paths return a value
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\piece.cpp(941): warning C4715: 'Piece::CheckChangePiece' : not all control paths return a value
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\pieceset.cpp(208): warning C4715: 'PieceSet::CpuSelectionPiece' : not all control paths return a value
+     1>c:\users\welcome\desktop\data\bai tap\lap trinh huong doi tuong\do an game\sfmlchess\game\game.cpp(672): warning C4715: 'Game::ProcessIcon' : not all control paths return a value
+         Finished generating code
+         game.vcxproj -> C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\Release\game.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o"C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\Release\game.bsc" /n Release\BoardChess.sbr Release\Connector.sbr Release\EventInput.sbr Release\Game.sbr Release\main.sbr Release\MenuGame.sbr Release\Mouse.sbr Release\MusicGame.sbr Release\Piece.sbr Release\PieceSet.sbr Release\Player.sbr Release\SoundGame.sbr Release\Square.sbr Release\WindowGame.sbr
+     1>Done Building Project "C:\Users\Welcome\Desktop\DATA\BAI TAP\Lap trinh huong doi tuong\do an game\SfmlChess\game\game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.36
